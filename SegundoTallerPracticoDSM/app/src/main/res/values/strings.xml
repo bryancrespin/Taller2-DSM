@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Segundo Taller Practico DSM</string>
+
+    <string name="Splashname">SplashAPP</string>
+    <string name="mensaje_1">Se seleccionó la primer opción</string>
+    <string name="mensaje_2">Se seleccionó la segunda opción</string>
+</resources>

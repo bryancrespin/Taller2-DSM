@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SegundoTallerPracticoDSM"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ejemplo2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPersona2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptadorPersona2"
+            android:exported="false" />
+        <activity
+            android:name=".Persona2"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptadorSalario"
+            android:exported="false" />
+        <activity
+            android:name=".Salario"
+            android:exported="false" />
+        <activity
+            android:name=".AddSalarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptadorAlumno"
+            android:exported="false" />
+        <activity
+            android:name=".AddAlumnoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Alumno"
+            android:exported="false" />
+        <activity
+            android:name=".AddAlumnosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SalarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PromedioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EjemploActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PersonasActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddPersonaActivity" />
+        <activity
+            android:name=".Persona"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptadorPersona"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
